@@ -1,0 +1,29 @@
+body{
+	margin:0;
+	padding:0;
+	font-family: Arial;
+	font-size: 12px;
+	background:#eee;
+}
+
+.mainDiv{
+	margin:0 auto;
+	width:900px;
+	background: #eee;
+}
+
+.topMenu{ background: linear-gradient(#999,#333); height: 30px; line-height: 30px; padding:0 5px 0 5px;
+		 color:#fff; font-weight: bold; border:1px solid #fff; }
+.topMenu ul {list-style:none;}
+.topMenu ul li{float:left; margin-right:10px;}
+.topMenu ul li a{color:#fff;}
+
+.header{ height:150px; background: lightblue; }
+.header .title{ width:350px; margin:0 auto; font-size: 30px; font-weight: bold; padding-top:50px;}
+.content{ border:1px solid #ccc; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; background: #ddd; padding:5px; }
+.content span{font-weight: bold; font-size:20px;}
+.loginBox{ border:1px solid #ccc; width:250px; border-radius: 5px; padding:5px; margin:0 auto; margin-bottom:5px; background: #eee;}
+.userBox{width:98%; border:1px solid #ccc; border-radius:5px; padding:5px; margin-bottom:5px; background:#eee;}
+.userBox table{margin:0 auto;}
+.loginBox span{font-weight: bold; font-size:14px;}
+.list{border:1px solid #ccc;}
